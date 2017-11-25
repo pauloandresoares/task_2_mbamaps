@@ -1,0 +1,7 @@
+.sourcemaps
+.vscode
+node_modules
+typings
+www
+platforms
+plugins
