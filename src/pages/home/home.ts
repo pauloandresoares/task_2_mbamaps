@@ -58,22 +58,7 @@ export class HomePage {
                 alert('clicked');
               });
           });
-
-         this.map.setClickable(true);
-
-
-         this.map.on(GoogleMapsEvent.MAP_READY).subscribe(() => {
-           console.log('Map is ready!');
-         });
-
-         this.map.on(GoogleMapsEvent.POLYLINE_CLICK)
-              .subscribe(() => {
-                alert('long click');
-              });
-
-
-
-
+  
       });
     });
 
