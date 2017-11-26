@@ -1,5 +1,6 @@
 .sourcemaps
 .vscode
+.idea
 node_modules
 typings
 www
